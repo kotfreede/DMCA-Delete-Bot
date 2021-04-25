@@ -1,32 +1,43 @@
 {
-    "name": "Message DeletEr Bot",
-    "description": "Modular  Telegram Bot powered by @PyroGram!",
+    "name": "Telegram DMCA Delete Bot",
+    "description": "This is a very simple Telegram DMCA Delete Bot by @AbirHasan2005",
     "keywords": [
         "telegram",
-        "bot",
-        "plugin",
-        "modular",
-        "productivity",
+        "dmca",
         "delete",
-        "channel",
-        "administrators",
-        "messages"
+        "bot"
     ],
-    "repository": "https://github.com/SpEcHiDe/DeleteMessagesRoBot",
-    "website": "https://telegram.dog/SpEcHlDe",
-    "success_url": "https://t.me/SpEcHlDe/857",
+    "repository": "https://github.com/Discovery-Projects/DMCA-Delete-Bot",
+    "website": "https://telegram.dog/AbirHasan2005",
+    "success_url": "https://t.me/Discovery_Updates",
     "env": {
-        "APP_ID": {
-            "description": "Get this value from my.telegram.org! Please do not steal"
+        "API_ID": {
+            "description": "Get this value from my.telegram.org or @TeleORG_Bot"
         },
         "API_HASH": {
-            "description": "Get this value from my.telegram.org! Please do not steal"
+            "description": "Get this value from my.telegram.org or @TeleORG_Bot"
         },
-        "TG_BOT_TOKEN": {
-            "description": "Obtain a Telegram bot token by contacting @BotFather"
+        "BOT_TOKEN": {
+            "description": "Get this from @BotFather XD"
+        },
+        "BOT_USERNAME": {
+            "description": "Your Bot Username which you sent to @BotFather (Without [@])"
+        },
+        "ADMIN": {
+            "description": "Bot Owner UserID"
+        },
+        "DATABASE_URL": {
+            "description": "MongoDB Database URI for Saving UserID for Broadcast."
+        },
+        "UPDATES_CHANNEL": {
+            "description": "ID of a Channel which you want to do Force Sub to use the bot. Example: -100123456789",
+            "required": false
+        },
+        "LOGS_CHANNEL": {
+            "description": "Logs Channel ID for some Tracking XD. Example: -100123456789"
         },
         "TG_USER_SESSION": {
-            "description": "Create a PyroGram User Session, using https://generatestringsession.spechide.repl.run/"
+            "description": "User Client Pyrogram String Session using @StringSessionGen_Bot"
         }
     },
     "buildpacks": [
