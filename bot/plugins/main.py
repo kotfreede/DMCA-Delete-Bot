@@ -24,7 +24,6 @@ from bot import (
 	ADMIN
 )
 from bot.bot import Bot
-from bot.user import User
 
 db = Database(DATABASE_URL, SESSION_NAME)
 broadcast_ids = {}
@@ -181,8 +180,7 @@ async def main(bot: Bot, message: Message):
 			LOGS_CHANNEL,
 			f"#NEW_USER: \n\nNew User [{message.chat.first_name}](tg://user?id={message.chat.id}) started @DMCA_DelBot !!"
 		)
-	UPDATES_CHANNEL = UPDATES_CHANNEL
-	if UPDATES_CHANNEL:
+	if UPDATES_CHANNEL is not None:
 		try:
 			user = await bot.get_chat_member(UPDATES_CHANNEL, message.chat.id)
 			if user.status == "kicked":
