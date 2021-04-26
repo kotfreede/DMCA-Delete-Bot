@@ -38,6 +38,10 @@
         },
         "TG_USER_SESSION": {
             "description": "User Client Pyrogram String Session using @StringSessionGen_Bot"
+        },
+        "BROADCAST_AS_COPY": {
+            "description": "Broadcast As What? Copy or with forward tag. Value will be True or False.",
+            "value": "False"
         }
     },
     "buildpacks": [
