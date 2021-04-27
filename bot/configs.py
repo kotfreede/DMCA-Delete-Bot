@@ -12,7 +12,7 @@ class Config(object):
 	DATABASE_URL = os.environ.get("DATABASE_URL")
 	LOGS_CHANNEL = int(os.environ.get("LOGS_CHANNEL"))
 	UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL")
-        BROADCAST_AS_COPY = bool(os.environ.get("BROADCAST_AS_COPY", True))
+	BROADCAST_AS_COPY = bool(os.environ.get("BROADCAST_AS_COPY", True))
 	START_TEXT = """
 Hi [{}](tg://user?id={})
 This is Telegram DMCA Messages Delete Bot.
