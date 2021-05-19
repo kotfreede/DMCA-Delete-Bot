@@ -27,7 +27,7 @@ async def make_chat_user_join(
     try:
         await client.join_chat(chat.invite_link) #
     except ChatAdminRequired:
-        return False, "Sorry Sir, I am not Admin in `{}` !!\n\nPlease add me as Admin in that chat will **Delete Messages** & **Add Admins** rights."
+        return False, "Sorry Sir, I am not Admin in `{}` !!\n\nPlease add me as Admin in that chat with **Delete Messages** & **Add Admins** rights."
     except UserAlreadyParticipant:
         pass
     _existing_permissions = await chat.get_member(user_id)
