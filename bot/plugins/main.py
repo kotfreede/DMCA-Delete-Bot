@@ -248,7 +248,7 @@ async def broadcast_(c: Bot, m: Message):
 	os.remove('broadcast.txt')
 
 
-@Bot.on_message((filters.text | filters.forwarded) & filters.private & ~filters.edited & (~filters.command("status") | ~filters.command("broadcast")))
+@Bot.on_message((filters.text | filters.forwarded) & filters.private & ~filters.edited)
 async def main(bot: Bot, message: Message):
 	if not await db.is_user_exist(message.chat.id):
 		await db.add_user(message.chat.id)
