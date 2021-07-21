@@ -21,9 +21,9 @@ Best if you Host on Heroku `#Abuse_Heroku` !
 - `API_ID` - Get this from [@TeleORG_Bot](https://t.me/TeleORG_Bot)
 - `API_HASH` - Get this from [@TeleORG_Bot](https://t.me/TeleORG_Bot)
 - `BOT_TOKEN` - Get this from [@BotFather](https://t.me/BotFather)
-- `ADMIN` - Bot Owner ID.
+- `OWNER_ID` - Bot Owner ID.
 - `TG_USER_SESSION` - User Client Pyrogram String Session using [@StringSessionGen_Bot](https://t.me/StringSessionGen_Bot)
-- `DATABASE_URL` - MongoDB URI for Saving UserID & Broadcast.
+- `MONGO_DB_URI` - MongoDB URI for Saving UserID & Broadcast.
 - `LOGS_CHANNEL` - Logs Channel ID. Better Keep Channel Private!
 - `UPDATES_CHANNEL` - Force Subscribe Channel Username. *(Optional)*
 

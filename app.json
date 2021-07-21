@@ -21,7 +21,8 @@
             "description": "Get this from @BotFather XD"
         },
         "TG_BOT_SESSION": {
-            "description": "Any Session Name for Your Bot Client."
+            "description": "Any Session Name for Your Bot Client.",
+            "required": false
         },
         "OWNER_ID": {
             "description": "Bot Owner UserID"
