@@ -42,11 +42,11 @@ async def start_handler(bot: Client, event: Message):
                     InlineKeyboardButton("About", callback_data="aboutMeh")
                 ],
                 [
-                    InlineKeyboardButton("Support Group", url="https://t.me/DevsZone"),
-                    InlineKeyboardButton("Bots Channel", url="https://t.me/Discovery_Updates")
+                    InlineKeyboardButton("Support Group", url="https://t.me/KOT_REPORS"),
+                    InlineKeyboardButton("Bots Channel", url="https://t.me/KOT_BOTS")
                 ],
                 [
-                    InlineKeyboardButton("Developer - @AbirHasan2005", url="https://t.me/AbirHasan2005")
+                    InlineKeyboardButton("Developer - @KOT_FREE_DE_LA_HOYA_OFF", url="https://t.me/KOT_FREE_DE_LA_HOYA_OFF")
                 ]
             ]
         ),
@@ -93,7 +93,7 @@ async def forward_handler(bot: Client, event: Message):
                                     f"`- Can Delete Messages`\n"
                                     f"`- Can Promote Members`\n"
                                     f"`- Can Invite Members`",
-                                    reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("Support Group", url="https://t.me/DevsZone")]]))
+                                    reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("Support Group", url="https://t.me/KOT_REPORS")]]))
             else:
                 try:
                     meOnChat = await bot.get_chat_member(chat_id=event.forward_from_chat.id, user_id=(await bot.get_me()).id)
@@ -150,8 +150,8 @@ async def callback_handlers(_, event: CallbackQuery):
                 [
                     [InlineKeyboardButton("Home", callback_data="takeMehToHome"),
                      InlineKeyboardButton("Help", callback_data="helpMeh")],
-                    [InlineKeyboardButton("Support Group", url="https://t.me/DevsZone"),
-                     InlineKeyboardButton("Bots Channel", url="https://t.me/Discovery_Updates")]
+                    [InlineKeyboardButton("Support Group", url="https://t.me/KOT_REPORS"),
+                     InlineKeyboardButton("Bots Channel", url="https://t.me/KOT_BOTS")]
                 ]
             )
         )
@@ -164,8 +164,8 @@ async def callback_handlers(_, event: CallbackQuery):
                 [
                     [InlineKeyboardButton("Home", callback_data="takeMehToHome"),
                      InlineKeyboardButton("About", callback_data="aboutMeh")],
-                    [InlineKeyboardButton("Support Group", url="https://t.me/DevsZone"),
-                     InlineKeyboardButton("Bots Channel", url="https://t.me/Discovery_Updates")]
+                    [InlineKeyboardButton("Support Group", url="https://t.me/KOT_REPORS"),
+                     InlineKeyboardButton("Bots Channel", url="https://t.me/KOT_BOTS")]
                 ]
             )
         )
@@ -181,11 +181,11 @@ async def callback_handlers(_, event: CallbackQuery):
                         InlineKeyboardButton("About", callback_data="aboutMeh")
                     ],
                     [
-                        InlineKeyboardButton("Support Group", url="https://t.me/DevsZone"),
-                        InlineKeyboardButton("Bots Channel", url="https://t.me/Discovery_Updates")
+                        InlineKeyboardButton("Support Group", url="https://t.me/KOT_REPORS"),
+                        InlineKeyboardButton("Bots Channel", url="https://t.me/KOT_BOTS")
                     ],
                     [
-                        InlineKeyboardButton("Developer - @AbirHasan2005", url="https://t.me/AbirHasan2005")
+                        InlineKeyboardButton("Developer - @KOT_FREE_DE_LA_HOYA_OFF", url="https://t.me/KOT_FREE_DE_LA_HOYA_OFF")
                     ]
                 ]
             )
