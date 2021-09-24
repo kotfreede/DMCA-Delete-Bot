@@ -1,5 +1,5 @@
 # DMCA-Delete-Bot
-This is a very simple Telegram DMCA Delete Bot by [@KOT_FREE_DE_LA_HOYA_OFF](https://github.com/KOT_FREE_DE_LA_HOYA_OFF).
+This is a very simple Telegram DMCA Delete Bot by [@KOT_FREE_DE_LA_HOYA_OFF](https://github.com/kotfreede).
 
 ## Demo Bot:
 <a href="https://t.me/DMCA_DelBot"><img src="https://img.shields.io/badge/Demo-Telegram%20Bot-blue.svg?logo=telegram"></a>
